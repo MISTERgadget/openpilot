@@ -1213,6 +1213,41 @@ FW_VERSIONS = {
       b'\x028646F5303400\x00\x00\x00\x008646G3304000\x00\x00\x00\x00',
     ],
   },
+  CAR.LEXUS_IS500: {
+    (Ecu.srs, 0x780, None): [
+      b'8917F53470\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.srs, 0x784, None): [
+      b'8917F53470\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x7C0, None): [
+      b'8380053N9202    ',
+    ],
+    (Ecu.eps, 0x7A1, None): [
+      b'8965B53800\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.hvac, 0x7C4, None): [
+      b'8865053A5201    ',
+    ],
+    (Ecu.transmission, 0x7E1, None): [
+      b'\x01895365317000\x00\x00\x00\x00',
+    ],
+    (Ecu.engine, 0x7E0, None): [
+      b'\x02353U0000\x00\x00\x00\x00\x00\x00\x00\x0052422000\x00\x00\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.abs, 0x7B0, None): [
+      b'\x01F15265343000\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdRadar, 0x750, 0xF): [
+      b'\x018821F6201400\x00\x00\x00\x00',
+    ],
+    (Ecu.fwdCamera, 0x750, 0x6D): [
+      b'\x028646F5303400\x00\x00\x00\x008646G3304000\x00\x00\x00\x00',
+    ],
+    (Ecu.telematics, 0x750, 0xC7): [
+      b'\x03FDC40.48.16\x00\x00\x00\x00\x00FDC40.58.16\x00\x00\x00\x00\x00132.0.4e00\x00\x00\x00\x00\x00\x00',
+    ],
+  },
   CAR.PRIUS: {
     (Ecu.engine, 0x700, None): [
       b'\x02896634761000\x00\x00\x00\x008966A4703000\x00\x00\x00\x00',
